@@ -664,8 +664,6 @@ const RetroArch = new class NengeStart {
                     url: 'mupen64plus_next_libretro.zip',
                 }
             }
-        },
-
                 }
             }
         },
