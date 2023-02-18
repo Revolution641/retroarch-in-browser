@@ -654,6 +654,15 @@ const RetroArch = new class NengeStart {
                     url: 'gambatte_libretro.zip',
                 }
             }
+        'n64': {
+            name: 'n64r',
+            cores: {
+                'mupen64plus': {
+                    support: 'n64',
+                    url: 'mupen64plus_next_libretro.zip',
+                }
+            }
+        },
         },
         'gba': {
             name: 'Game Boy Advance',
