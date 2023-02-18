@@ -653,7 +653,9 @@ const RetroArch = new class NengeStart {
                     support: 'gb',
                     url: 'gambatte_libretro.zip',
                 }
+                }
             }
+        },
         'n64': {
             name: 'n64r',
             cores: {
@@ -663,19 +665,6 @@ const RetroArch = new class NengeStart {
                 }
             }
         },
-        },
-        'gba': {
-            name: 'Game Boy Advance',
-            bios: 'gba.zip',
-            cores: {
-                'mGBA': {
-                    support: 'gb|gba',
-                    otherSystem: 'gb',
-                    url: 'mgba_libretro.zip',
-                },
-                'vba_next': {
-                    support: 'gba',
-                    url: 'vba_next_libretro.zip',
 
                 }
             }
