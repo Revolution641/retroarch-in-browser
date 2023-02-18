@@ -652,6 +652,7 @@ const RetroArch = new class NengeStart {
                 'gambatte': {
                     support: 'gb',
                     url: 'gambatte_libretro.zip',
+                }
                 },
             }
         },
@@ -661,9 +662,9 @@ const RetroArch = new class NengeStart {
                 'mupen64plus': {
                     support: 'n64',
                     url: 'mupen64plus_next_libretro.zip',
-                },
-            }
-        },
+                }
+           }
+                }
         'n64': 'N64',
         'nes': {
             name: 'NES / Famicom',
