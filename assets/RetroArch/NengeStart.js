@@ -653,7 +653,6 @@ const RetroArch = new class NengeStart {
                     support: 'gb',
                     url: 'gambatte_libretro.zip',
                 }
-                }
             }
         },
         'n64': {
